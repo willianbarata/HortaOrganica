@@ -1,0 +1,12 @@
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\bin\Debug\net5.0\HortaOrganicaAppData.deps.json
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\bin\Debug\net5.0\HortaOrganicaAppData.dll
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\bin\Debug\net5.0\HortaOrganicaAppData.pdb
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.csproj.AssemblyReference.cache
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.AssemblyInfoInputs.cache
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.AssemblyInfo.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.csproj.CoreCompileInputs.cache
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.dll
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\refint\HortaOrganicaAppData.dll
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\HortaOrganicaAppData.pdb
+C:\dev\HortaOrganicaWebApp\HortaOrganicaAppData\obj\Debug\net5.0\ref\HortaOrganicaAppData.dll
