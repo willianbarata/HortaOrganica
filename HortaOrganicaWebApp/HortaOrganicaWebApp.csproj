@@ -13,4 +13,9 @@
     <ProjectReference Include="..\HortaOrganicaAppData\HortaOrganicaAppData.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\App\Data\" />
+    <Folder Include="Areas\App\Models\" />
+  </ItemGroup>
+
 </Project>

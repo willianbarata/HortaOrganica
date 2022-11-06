@@ -1,0 +1,94 @@
+﻿@using HortaOrganicaWebApp.Models
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Chamado Técnicos WebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/js/all.js" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Horta Orgânica</a>
+            <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                    <a asp-action="Logout" asp-controller="Usuario" asp-area="Default" class="btn btn-danger btn-sm">Sair</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Area lateral -->
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <!-- Menu geral -->
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" asp-action="Index" asp-controller="Home" asp-area="App">
+                                <span data-feather="home"></span>
+                                Painel de controle <span class="sr-only">(atual)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file"></span>
+                                Produtos
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Menu admin -->
+                    @if (User.Identity.IsAuthenticated && User.IsInRole(Perfis.Administrador.ToString()))
+                    {
+                        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>Administração</span>
+                            <a class="d-flex align-items-center text-muted" href="#">
+                                <span data-feather="plus-circle"></span>
+                            </a>
+                        </h6>
+                        <ul class="nav flex-column mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="App" asp-controller="Usuarios" asp-action="Index">
+                                    <span data-feather="file-text"></span>
+                                    Usuários
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="App" asp-controller="Clientes" asp-action="Index">
+                                    <span data-feather="file-text"></span>
+                                    Clientes
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="App" asp-controller="Tecnicos" asp-action="Index">
+                                    <span data-feather="file-text"></span>
+                                    Técnicos
+                                </a>
+                            </li>
+                        </ul>
+                    }
+
+                </div>
+            </nav>
+
+            <!-- Area de conteudo principal -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                @RenderBody()
+            </main>
+
+        </div>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

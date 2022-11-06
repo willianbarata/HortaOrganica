@@ -107,7 +107,6 @@ C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\HortaOrganicaWeb
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\HortaOrganicaWebApp.RazorCoreGenerate.cache
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -123,3 +122,11 @@ C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\HortaOrganicaWeb
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\ref\HortaOrganicaWebApp.dll
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Usuario\Cadastro.cshtml.g.cs
 C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Home\Index.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Shared\Error.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Shared\_Layout.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\_ViewImports.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\_ViewStart.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Usuarios\Inclui.cshtml.g.cs
+C:\dev\HortaOrganicaWebApp\HortaOrganicaWebApp\obj\Debug\net5.0\Razor\Areas\App\Views\Usuarios\Index.cshtml.g.cs
